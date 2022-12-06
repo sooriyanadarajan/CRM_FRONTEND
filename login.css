@@ -1,0 +1,69 @@
+body{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #8218a6 !important;
+}
+.navbar-brand{
+    color: white;
+    letter-spacing: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar-brand:hover{
+    color: #8FE3CF;
+}
+.text-color-style{
+    color: #810CA8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg-btn{
+    background-color:#C147E9;
+    color: #8FE3CF;
+}
+.bg-btn:hover{
+    background-color: #E5B8F4;
+    color: white;
+}
+.title-color-style{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#810CA8;
+    padding: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.login__box{
+    margin: 50px auto;
+   width: 50%;
+}
+@media only screen and (width<=500px){
+    .logo__in__login{
+       display: none;
+    }
+    .logo-img-nav{
+        width: 30px;
+        height: 30px;
+    }
+    .login__box{
+        width: 85vw;
+        margin: 0 !important;
+        padding: 0;
+        height: 30vh !important;
+    }
+    .title-color-style{
+        text-align: left;
+        padding: 0;
+        letter-spacing: 0;
+        display: inline-block;
+        width: 14rem;
+    }   
+    .login_form{
+        width: 85vw;
+        flex-wrap: wrap;
+    }
+    .form_input{
+    width: 100% !important;
+    }
+   
+}
